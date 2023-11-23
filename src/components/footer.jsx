@@ -8,10 +8,10 @@ const footer = () => {
   return (
     <div>
       <div className="flex justify-center pb-10 mt-8">
-        <a href="">
+        <a href="mailto:jasmineosai@gmail.com">
           <img className="mr-1 mt-0.5 w-10" src={Email} alt="" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/jasmineosai" target="blank">
           <img className="w-10 mr-1 " src={Linkedin} alt="" />
         </a>
         <a href="">
@@ -22,7 +22,7 @@ const footer = () => {
           <p className="text-white">+2349032082817</p>{" "}
         </div>
       </div>
-      <p className="pb-5 text-center text-primary">
+      <p className="pb-1 text-center text-primary">
         {" "}
         &#169; 2023 <span className="font-bold">Jasmine Osai</span> All Rights
         Reserved.

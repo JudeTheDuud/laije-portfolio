@@ -4,7 +4,7 @@ import React from "react";
 
 const contact = () => {
   return (
-    <div className="">
+    <div className="" id = 'contact'>
       <div className="w-screen pt-8 pb-32 mt-60 bg-primary">
         <div className="px-12 text-5xl font-bold text-center text-white mr-[17rem]">
           contact.
@@ -39,7 +39,7 @@ const contact = () => {
                   id=""
                   cols="30"
                   rows="10"
-                  className="text-black rounded-md resize-none"
+                  className="text-black rounded-md resize-none indent-3"
                 ></textarea>
               </div>
 

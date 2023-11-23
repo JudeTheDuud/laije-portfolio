@@ -35,6 +35,13 @@
   a:hover {
     color: white;
   }
+
+a.active{
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+}
+
   button {
     background-color: #c56565;
     
