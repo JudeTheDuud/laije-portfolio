@@ -53,3 +53,39 @@ a.active{
   }
   
 }
+
+@media (prefers-color-scheme: dark){
+  a:hover {
+    color: white;
+  }
+
+a.active{
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+}
+p{
+  color:white;
+}
+  button {
+    background-color: #c56565;
+    color: white;
+  }
+
+  #about{
+    color: white;
+  
+  }
+
+  #about div{
+    color: white;
+ 
+  }
+
+ 
+
+  button:hover{
+    background-color: #c56565;
+    color: white;
+}
+}

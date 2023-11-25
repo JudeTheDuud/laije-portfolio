@@ -15,7 +15,7 @@ const about = () => {
         <div className="md:ml-[20rem]">
           <ul className="mt-16 text-lg text-left list-disc md:text-xl">
             <li className="text-black rounded ">
-              <div className="text-xl font-bold md:w-[65%]">
+              <div className="text-xl font-bold md:w-[65%]" >
                 2020-2021 Sterling Bank Plc, Lagos — Compliance Analyst
                 <ul className="font-normal">
                 <li className="mt-3">
