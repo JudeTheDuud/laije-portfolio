@@ -6,14 +6,14 @@ const contact = () => {
   return (
     <div className="" id = 'contact'>
       <div className="w-screen pt-8 pb-32 mt-60 bg-primary">
-        <div className="px-12 text-5xl font-bold text-center text-white mr-[17rem]">
+        <div className="text-4xl font-bold text-center text-white md:text-6xl ">
           contact.
-          <p className="px-2 mt-6 text-xl font-medium">Get in touch with me</p>
+          <p className="px-2 mt-6 text-lg font-medium md:text-xl">Get in touch with me</p>
         </div>
 
         <div className="flex items-center justify-center w-screen mt-10 ">
           <div className="">
-            <form action="" className="grid  gap-4 text-white w-[30rem] contact-form">
+            <form action="" className="grid  gap-4 text-white w-[20rem] contact-form md:w-[30rem]">
               <div className="grid form-group">
                 <label htmlFor="Name">Name</label>
                 <input
